@@ -27,7 +27,7 @@ def get_employee_todos(user_id):
         employee_name, number_completed, len(todos)))
     for task in todos:
         if task.get("completed"):
-            formated_title = "	 " + task.get("title")
+            formated_title = "\t " + task.get("title")
             print("{}".format(formated_title))
 
 
