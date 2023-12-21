@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """a module to get data from an API"""
-from sys import argv
 import requests
+from sys import argv
 
 
 def get_employee_todos(user_id):
